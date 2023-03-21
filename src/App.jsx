@@ -7,7 +7,7 @@ import Quote from "./Components/Quote";
 function App() {
   const [quote, setQuote] = useState("");
 
-  // Link from https://rapidapi.com/HealThruWords/api/universal-inspirational-quotes
+  // API Link from https://type.fit/api/quotes
   const quoteFromApi = `https://type.fit/api/quotes`;
   console.log("useEffect ran");
 
